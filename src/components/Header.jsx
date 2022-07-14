@@ -39,6 +39,8 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
 `;
 const Ul = styled.ul`
   list-style-type: none;
@@ -63,6 +65,7 @@ const Ul = styled.ul`
     padding: 20px;
     margin: 0;
     transition: 0.3s;
+    background-color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     ${laptop({
       fontSize: "14px",
@@ -112,6 +115,7 @@ const Menu = styled.div`
       font-size: 22px;
       padding: 5px;
       transition: 0.3s;
+      display: none;
       ${laptop({
         display: "none",
       })}
