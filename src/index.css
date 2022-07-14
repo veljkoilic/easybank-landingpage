@@ -10,12 +10,23 @@
   --very-light-gray: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
 }
+html{
+  overflow-x: hidden;
+}
+*{
+  transition: 0.5s all;
 
+}
 body {
   margin: 0;
   font-family: "Public Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
-  background-color: var(--very-light-gray);
+  background-color: var(--light-grayish-blue);
+}
+p{
+  font-weight: 300;
+  color: gray;
+
 }
