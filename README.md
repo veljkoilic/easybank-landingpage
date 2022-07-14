@@ -18,7 +18,7 @@
 
 ### Screenshot
 
-  
+  [Live preview](https://veljkoilic.github.io/speed-typer/)
 
 <img src='https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/yezt1f56cfp2njnakpbo.jpg' alt='Easybank Landing page'/>
 
